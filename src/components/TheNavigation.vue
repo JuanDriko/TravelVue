@@ -1,10 +1,10 @@
 <template>
     <div id="nav">
-        <AppLink id="logo" to="/">
+        <AppLink id="logo" to="/TravelVue/">
             Travel
         </AppLink>
 
-        <AppLink to="/">Inicio</AppLink>
+        <AppLink to="/TravelVue/">Inicio</AppLink>
         <AppLink to="/about">Acerca de</AppLink>
       <AppLink
         v-for="destination in destinations"
@@ -15,7 +15,7 @@
         {{ destination.name }}
       </AppLink>
       <AppLink :to="{name:'protected'}">LogIn</AppLink>
-      <AppLink to='https://vueschool.io'>Escuela de Vue</AppLink>
+      <AppLink to='https://juandriko.github.io/CV/'>Mi Portafolio</AppLink>
     </div>
   </template>
   

@@ -4,7 +4,7 @@
         <p>
             Oops, no hemos encontrado la pagina que buscas.
             Intenta nuevamente
-            <router-link to="/">home</router-link>
+            <router-link to="/TravelVue/">home</router-link>
         </p>
     </div>
 </template>

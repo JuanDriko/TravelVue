@@ -3,7 +3,7 @@ import Home from "@/views/Home.vue";
 import sourceData from "@/data.json";
 
 const routes = [
-  { path: "/", name: "home", component: Home },
+  { path: "/TravelVue/", name: "home", component: Home },
   { path: "/protected", name: "protected", component: () => import("@/views/Protected.vue"),
     meta:{
         requestAuth: true,
