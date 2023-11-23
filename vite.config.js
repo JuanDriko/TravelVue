@@ -10,5 +10,5 @@ export default defineConfig({
     },
   },
   plugins: [vue()],
-  base: 'https://JuanDriko.github.io/TravelVue'
+  base: '/TravelVue/'
 })
