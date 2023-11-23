@@ -23,7 +23,7 @@ const routes = [
   {
     path: "/destination/:id/:slug",
     name: "destination.show",
-    component: () => import("@/views/destinationShow.vue"),
+    component: () => import("@/views/DestinationShow.vue"),
     props: (route) => ({ ...route.params, id: parseInt(route.params.id)}),
     beforeEnter: (to, from) => {
         const exists = sourceData.destinations.find(destination => destination.id === parseInt(to.params.id))
