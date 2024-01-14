@@ -13,7 +13,7 @@
 
    <p>
    1.1 Navega al directorio del proyecto: <br>
-   cd todolist
+   cd travel
    
    1.2 Instala las dependencias: <br>
    npm install   
